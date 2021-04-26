@@ -28,6 +28,6 @@ In Unity:
 Several ways, in Unity you can press build and run, in the background unity will spin up a server for your build to run on to be viewed in a browser.
 
 Recommended: install and use to start up a localserver https://www.npmjs.com/package/local-web-server 
-after installing, navigate via command prompt to the build location where "index.html" and start up server with "ws"
+after installing, navigate via command prompt to the build location where "index.html" is located and start up server with "ws". You can exit this prompt by hitting ctrl + c to "kill" it.
 
 Then, in your browser, visit http://localhost:8000, or whatever prints out in command prompt.
