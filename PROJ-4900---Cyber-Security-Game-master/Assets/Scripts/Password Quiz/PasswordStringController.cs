@@ -155,8 +155,6 @@ public class PasswordAdvisor
         if (score == 0) return PasswordScore.VeryWeak;
         return (PasswordScore)score;
 
-        // score = 5, score--, !if statements to find out what is missing from password
-
     }
 
     public static bool HasMinimumLength(string password, int minLength)
