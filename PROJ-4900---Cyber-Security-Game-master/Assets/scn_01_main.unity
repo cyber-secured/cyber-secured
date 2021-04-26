@@ -439,9 +439,9 @@ MonoBehaviour:
     sentences:
     - 'Wrong answer!
 
-      Although it seem like it is ok to use the same key with more than one person
-      but we always need to remeber that the main point of OTP, It''s unique and will
-      be generated only once for each person.'
+      Although it seem like it is ok to use the same key with more than one person,
+      we need to remember the point of OTP. It is unique and will be generated only
+      once for each person.'
   repeatable: 0
   triggered: 0
   picture: {fileID: 0}
@@ -4004,7 +4004,6 @@ RectTransform:
   - {fileID: 115289563}
   - {fileID: 1282318751}
   - {fileID: 1917920414}
-  - {fileID: 362480896}
   - {fileID: 897074307}
   - {fileID: 1188872568}
   - {fileID: 1991386275}
@@ -5512,8 +5511,8 @@ MonoBehaviour:
   dialogue:
     name: IT Senior
     sentences:
-    - Nothing wrong here! You are offered multiple secure ways of viewing your message
-      from Chase, and the email is sent from a trusted email address (@chase.com).
+    - Oops, nothing wrong here! You are offered multiple secure ways of viewing your
+      message from Chase, and the email is sent from a trusted email address (@chase.com).
   repeatable: 0
   triggered: 0
   picture: {fileID: 0}
@@ -8336,8 +8335,8 @@ MonoBehaviour:
   dialogue:
     name: IT Senior
     sentences:
-    - "Congrates! It's already been 12 months! \nThroughout the year you gained a
-      lot of information that will help you in your future career, make the right
+    - "Congratulations! It's already been 12 months! \nThroughout the year, you gained
+      substantial information that will help you in your future career. Make the right
       decisions and feel free to come back again to refresh your knowledge."
     - Now let's see how you performed...
     - '[temp text]'
@@ -10371,14 +10370,11 @@ MonoBehaviour:
     cyber security challenges!
 
 
-    Each month aims toteach you cyber security concepts.
+    Each month aims to teach you cyber security concepts.
 
 
     Click the menu button to reset the game, change the volumes, or skip your current
     month (only on quizzes!)
-
-
-    To start enter your name and then hit the start button!
 
 
     To start enter your name and then hit the start button!'
@@ -10565,18 +10561,18 @@ RectTransform:
   m_GameObject: {fileID: 362480895}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.99986404, y: 0.99986404, z: 0.99986404}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1997395685}
   - {fileID: 1392124478}
   - {fileID: 1999812819}
   - {fileID: 1058585745}
-  m_Father: {fileID: 145222239}
-  m_RootOrder: 3
+  m_Father: {fileID: 1697195685}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -36.9}
+  m_AnchoredPosition: {x: -0.0032196045, y: -1000.64514}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &362480897
@@ -12641,8 +12637,8 @@ MonoBehaviour:
   dialogue:
     name: IT Senior
     sentences:
-    - "Remember, the idea behind OTP is the random numbers. \nAlso, the addition of
-      the numbers must envolve the mod operation."
+    - "Remember, the idea behind OTP are the random numbers. \nAlso, the addition
+      of the numbers must involve modulo operation."
   repeatable: 1
   triggered: 0
   picture: {fileID: 0}
@@ -14583,8 +14579,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.8
-  m_Text: Given same amount of password length (12), which password is the hardest
-    to brute force?
+  m_Text: Given a length of 12,, which password is the hardest to brute force?
 --- !u!222 &488325206
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15884,11 +15879,11 @@ MonoBehaviour:
     sentences:
     - Our firm has been given the chance to assist in keeping one of three companies
       running in top shape.
-    - Larger companies, employing more people, have a higher monthly income but are
-      also prone to more security problems
+    - Larger companies employ more people aand offer higher monthly income but are
+      prone to more security problems
     - Don't worry, I'll be here to help you out.
-    - "In the following screen please choose one of the companies you would like to
-      work for. \nBe aware! You will not be able to change your decision throughout
+    - "In the following screen, please choose one of the companies you would like
+      to work for. \nBe aware! You will not be able to change your decision throughout
       the game.\nEnjoy and good luck!"
   repeatable: 0
   triggered: 0
@@ -16144,8 +16139,8 @@ MonoBehaviour:
   dialogue:
     name: IT Senior
     sentences:
-    - Good job! Take note of the email being received directly from amazon.com, and
-      no urgency to "reset everything now!"
+    - Good job! Take note of the email being sent directly from amazon.com, and no
+      urgency to "reset everything now!"
   repeatable: 0
   triggered: 0
   picture: {fileID: 0}
@@ -17114,7 +17109,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 145222239}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -17407,8 +17402,8 @@ MonoBehaviour:
   dialogue:
     name: IT Senior
     sentences:
-    - Good job! Pay attention to what email you are receiving a message from (@efficaciousrbays.xyz)
-      and be wary of links for "rewards".
+    - Good job! Pay attention to the sender of the email (@efficaciousrbays.xyz) and
+      be wary of links for "rewards".
   repeatable: 0
   triggered: 0
   picture: {fileID: 0}
@@ -22199,8 +22194,8 @@ MonoBehaviour:
     - Anyone can use the public key to encrypt a message, but with currently published
       methods, if the public key is large enough, only someone with knowledge of the
       prime factors can decode the message.
-    - Let''s go through a demonstration to get a better understanding.
-    - 'fSuppose Alice and Bob want to communicate using RSA. '
+    - Let's go through a demonstration to get a better understanding.
+    - 'Suppose Alice and Bob want to communicate using RSA. '
     - 'Recall that their communication involves 2 pairs of keys, for a total of 4
       different keys. Alice has a private and public key, and Bob has a private and
       public key.
@@ -22219,8 +22214,8 @@ MonoBehaviour:
       can use Bob's public key because it is available to everyone.
     - "When Bob receives the ciphertext, he will decrypt it with his private key.
       \nNo one else can use Bob's private key, so no one else can read this encrypted
-      message! \n\nThat's the first phase: confidentiality. \nLet's see the second
-      phase: authenticity/digital signature."
+      message! That's the first phase: confidentiality. \nLet's see the second phase:
+      authenticity/digital signature."
     - Now, Alice wants to make sure that no one else pretends to send a message as
       her. In addition to encrypting using Bob's public key, she "signs" her ciphertext
       by adding another layer of encryption, using her private key.
@@ -22386,7 +22381,7 @@ MonoBehaviour:
     - It is hard to remember a long and complex password. However, if you can figure
       out a unique way to construct a password that isn't found in the dictionary,
       then that will be a great password.
-    - Using mmemonics to remember a password could be a good idea. If you put together
+    - Using mnemonics to remember a password could be a good idea. If you put together
       words that have meaning to you and create an unusual story, then you could associate
       your password with imagery.
     - Once you have your passphrase, you can start adding complexity to it by introducing
@@ -27266,7 +27261,7 @@ RectTransform:
   m_Children:
   - {fileID: 1253216401}
   m_Father: {fileID: 145222239}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -32853,11 +32848,12 @@ MonoBehaviour:
     name: IT Senior
     sentences:
     - Passwords prove you are who you claim to be. Not only does it allow you to access
-      your account, it also denies entry to malicioius impersonators.
+      your account, it also denies entry to malicious impersonators.
     - It is your duty to come up with a secret only you should know and can remember.
-      It is absolutely essential that your password is not easily deducible.
-    - Modern computers can reveal your password in seconds. Take some time to understand
-      how to make a strong password, by making it harder for computers to crack.
+      It is absolutely essential that your password is not easy to figure out.
+    - Modern computers can figure out many password in seconds. Take some time to
+      understand how to make a strong password, by making it harder for computers
+      to crack.
   repeatable: 0
   triggered: 0
   picture: {fileID: 0}
@@ -35094,7 +35090,7 @@ RectTransform:
   m_Children:
   - {fileID: 1064907554}
   m_Father: {fileID: 145222239}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -35235,38 +35231,39 @@ MonoBehaviour:
   dialogue:
     name: IT Senior
     sentences:
-    - 'One-time pad (OTP) is an encryption technique that cannot be cracked (timewise),
-      but requires the use of a one-time pre-shared key the same size as, or longer
-      than, the message being sent. '
+    - 'One-time pad (OTP) is an encryption technique that cannot be cracked. It requires
+      the use of a one-time pre-shared key the same size as, or longer than, the message
+      being sent. '
     - In this technique, a plaintext is paired with a random secret key (also referred
       to as a one-time pad).
     - We created a short demonstration for you to make things a little easier. Please
       look at the demonstration and follow its rules.
     - "If Ann wants to send a secret message to Matt, she will have to use some sort
       of technique to encrypt her message. \nAnn will use OTP encryption by following
-      number of steps."
-    - "Assuming Ann would like to send the message: \"Hello it is Ann\". \n\nLet's
-      see what she will have to do to use OTP succesfully."
+      a number of steps."
+    - "Ann would like to send the message: \"Hello it is Ann\". \n\nLet's see what
+      she will have to do to use OTP succesfully."
     - "Fitst: Ann will have to count how many letters she has in the sentence. As
-      we can see, in this sentence we have 12 letters. \nNote  that the structure
-      of the sentence will stay the same before and after the encryption."
+      we can see, in this sentence we have 12 letters. \nNote that the structure of
+      the sentence will stay the same before and after the encryption."
     - 'Second: Ann will generate 12 random numbers that will correspond to each letter
       in the original message.
 
       Note, this is also called the "key" and it will be shared with the recipient.'
     - 'Third: we will add each random number (represented by the blue row) to its
       corresponding numerical value of the original letter (represented by the red
-      row). Results will be added to the green row. Each column individually.'
+      row). Results in each column will be added to the green row.'
     - 'The technique is to combine the key and the message using modular addition.
-      But do not worry we will show you a simpler way of performing the addition correctly.
+      But do not worry! We will show you a simpler way of performing the addition
+      correctly.
 
 '
-    - "For Example: The numerical value of the letter 'X' is 24. If we add a random
-      number 4 to it the result will be 28. Since we don't have a letter corresponded
-      to 28 due to the fact that the ABC goes up to 26, we will continue our count
-      after the letter \u2019Z\u2019 normally by moving to the beginning again and
-      staring with \u2019A.\u2019   X-->Y-->Z-->A-->B"
-    - 'Forth: Now Ann needs to transform the numbers into letters and then she will
+    - "For Example: The numerical value of the letter 'X' is 24. If we add a randomly
+      generated 4 to it, we get 28. Since we don't have a letter corresponding to
+      28 (the alphabet having 26 letters), we will continue our count after the letter
+      \u2019Z\u2019 by moving to the beginning again and starting with \u2019A.\u2019
+      \  X-->Y-->Z-->A-->B"
+    - 'Fourth: Now, Ann needs to transform the numbers into letters and then she will
       be able to send the encrypted message to Matt.'
     - 'Here is the encrypted message.
 
@@ -35281,7 +35278,7 @@ MonoBehaviour:
     - 'Try to answer the following qustions to gain most of the points.
 
 
-      Don''t worry it won''t be hard.'
+      Don''t worry, once you get the hang of it, it won''t be hard.'
   repeatable: 0
   triggered: 0
   picture: {fileID: 0}
@@ -39732,8 +39729,8 @@ MonoBehaviour:
   dialogue:
     name: IT Senior
     sentences:
-    - It is important to update firmware on devices as these updates usually patch
-      security holes and bugs.
+    - It is important to update firmware on devices frequently as these updates usually
+      patch security holes and bugs.
   repeatable: 0
   triggered: 0
   picture: {fileID: 0}
@@ -50972,14 +50969,15 @@ RectTransform:
   m_LocalScale: {x: 0.9998641, y: 0.9998641, z: 0.9998641}
   m_Children:
   - {fileID: 155886767}
+  - {fileID: 362480896}
   m_Father: {fileID: 145222239}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00012207031, y: 190}
+  m_AnchoredPosition: {x: -32.222168, y: 1600}
   m_SizeDelta: {x: 200, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0.33885118, y: 13.229548}
 --- !u!114 &1697195686
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53892,7 +53890,7 @@ MonoBehaviour:
     - The brute-force method of cracking passwords is trying every single combination
       of a password until it matches.
     - For the brute-force method, the best defense is an extremely long password,
-      long enough that it would take centuries to match.
+      long enough that it would take centuries to solve.
     - Modern computers can crack passwords of length 8 in minutes, so it's important
       to have an even longer password!
     - By itself, length is a strong defense, but it might not matter if a hacker uses
@@ -55174,7 +55172,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Create mmenomic
+  m_Text: Create mnenomic
 --- !u!222 &1832167474
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -55869,8 +55867,8 @@ MonoBehaviour:
   dialogue:
     name: IT Senior
     sentences:
-    - It is important to make sure antivirus software is in effect, since it prevents
-      malicious activity by detecting the target and removing it
+    - It is important to make sure antivirus software is in effect. It prevents malicious
+      activity by detecting the target and removing it.
   repeatable: 0
   triggered: 0
   picture: {fileID: 0}
@@ -59014,7 +59012,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Things to Consider:
 
-    Passwords of length 8 can be cracked in minutes.
+    Passwords of length 8 can be cracked in hours.
 
     Passwords of length 12 can take centuries.
 
@@ -60128,7 +60126,7 @@ RectTransform:
   m_Children:
   - {fileID: 1515460745}
   m_Father: {fileID: 145222239}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -61018,7 +61016,7 @@ MonoBehaviour:
     name: IT Senior
     sentences:
     - "Whoops.. You weren't able to properly encrypt the text. \nDo not forget the
-      modulos when you're calculating the numbers. \nTry again next time!"
+      moduli when you're calculating the numbers. \nTry again next time!"
   repeatable: 1
   triggered: 0
   picture: {fileID: 0}
